@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InGen Group of Companies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark gray text */
+        }
+        header {
+            background-color: #007bff; /* Blue header */
+            padding: 20px;
+            text-align: center;
+            color: #fff; /* White text */
+            transition: background-color 0.3s ease;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333; /* Dark gray navigation bar */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff; /* White text */
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #555; /* Darker gray on hover */
+            color: #fff; /* White text */
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333; /* Dark gray footer */
+            color: #fff; /* White text */
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 40px);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        @media screen and (max-width: 768px) {
+            .card {
+                width: calc(50% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>InGen Group of Companies</h1>
+        <!-- Placeholder for logo -->
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="founders.html">Founders</a>
+        <a href="youtube.html">YouTube Channel</a>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="card" style="background-color: #ff6347; color: #fff;">
+                <h2>About Us</h2>
+                <p>InGen Group of Companies specializes in AI and aerospace technologies.</p>
+            </div>
+            <div class="card" style="background-color: #4682b4; color: #fff;">
+                <h2>Our Services</h2>
+                <p>We provide cutting-edge AI solutions and aerospace technologies.</p>
+            </div>
+            <div class="card" style="background-color: #32cd32; color: #fff;">
+                <h2>Contact Us</h2>
+                <p>For inquiries, please email us at info@ingen.com</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 InGen Group of Companies</p>
+    </footer>
+</body>
+</html>
